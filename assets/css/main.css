@@ -467,3 +467,25 @@ textarea.input-field {
 
 /* sv-area css end */
 /* 02 page css end */
+
+
+/* service-store page css start */
+
+.cmn-list {
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.cmn-list li {
+    color: var(--black);
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+
+.cmn-content .inner-cmn:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+/* service-store page css end */
