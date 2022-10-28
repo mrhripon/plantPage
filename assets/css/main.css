@@ -489,3 +489,59 @@ textarea.input-field {
 }
 
 /* service-store page css end */
+
+
+/* service page css start */
+
+.service-g-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.service-area {
+    padding: 75px 0;
+    padding-top: 130px;
+}
+
+.green-blk-wrap {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 65px;
+    border-radius: 10px;
+    padding-right: 40px;
+}
+
+.green-blk-wrap::before {
+    content: "";
+    position: absolute;
+    background: var(--dark-green);
+    width: calc(100% + 100px);
+    height: calc(100% + 80px);
+    z-index: -1;
+    top: -80px;
+    left: -100px;
+    border-radius: 10px;
+}
+
+.green-blk-wrap h2 {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 28px;
+    margin: 0;
+}
+
+.service-lf img {
+    position: relative;
+    z-index: 111;
+}
+
+.green-blk-wrap h2 strong {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+/* service page css end */
