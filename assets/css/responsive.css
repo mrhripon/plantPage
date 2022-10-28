@@ -30,6 +30,10 @@
     .decoration-content p {
         font-size: 16px;
     }
+
+    .service-g-wrapper {
+        grid-gap: 30px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -98,6 +102,31 @@
 
     .sv-area {
         padding: 65px 0;
+    }
+
+    .service-area {
+        padding: 60px 0;
+        padding-top: 95px;
+    }
+
+    .service-g-wrapper {
+        display: block;
+    }
+
+    .green-blk-wrap {
+        max-width: 100%;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        padding-right: 0;
+    }
+
+    .green-blk-wrap::before {
+        width: calc(100% + 150px);
+        height: calc(100% + 70px);
+    }
+
+    .need-wrap {
+        margin-top: 45px;
     }
 }
 
@@ -193,6 +222,24 @@
 
     .sv-area {
         padding: 60px 0;
+    }
+
+    .green-blk-wrap h2 {
+        font-size: 22px;
+    }
+
+    .service-area {
+        padding: 40px 0;
+        padding-top: 95px;
+    }
+
+    .service-category h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .service-f li {
+        font-size: 14px;
     }
 
 }

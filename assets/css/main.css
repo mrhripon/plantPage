@@ -501,15 +501,17 @@ textarea.input-field {
 
 .service-area {
     padding: 75px 0;
-    padding-top: 130px;
+    padding-top: 170px;
+    overflow: hidden;
 }
 
 .green-blk-wrap {
     position: relative;
     z-index: 1;
-    padding-bottom: 65px;
+    padding-bottom: 60px;
     border-radius: 10px;
     padding-right: 40px;
+    max-width: 525px;
 }
 
 .green-blk-wrap::before {
@@ -517,9 +519,9 @@ textarea.input-field {
     position: absolute;
     background: var(--dark-green);
     width: calc(100% + 100px);
-    height: calc(100% + 80px);
+    height: calc(100% + 70px);
     z-index: -1;
-    top: -80px;
+    top: -70px;
     left: -100px;
     border-radius: 10px;
 }
@@ -542,6 +544,50 @@ textarea.input-field {
     font-size: 13px;
     margin-bottom: 7px;
     display: block;
+}
+
+.service-f {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    list-style: none;
+}
+
+.service-category h5 {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.ttl {
+    padding-left: 15px;
+}
+
+.ttl::before {
+    content: "";
+    background: var(--black);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+.service-f li {
+    font-size: 15px;
+    color: var(--black);
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+
+.need-wrap .section-title {
+    margin-bottom: 20px;
+}
+
+.need-wrap {
+    margin-top: 30px;
 }
 
 /* service page css end */
